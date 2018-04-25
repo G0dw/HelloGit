@@ -1,10 +1,10 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+__pycache__/  # 缓存文件
+*.py[cod]   # 中间产物
+*$py.class  # 中间产物
 
 # C extensions
-*.so
+*.so    # 共享库
 
 # Distribution / packaging
 .Python
@@ -99,3 +99,7 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# pycharm缓存文件
+.idea
+
